@@ -1,11 +1,11 @@
 # autoexec
-__________________________________________
-// LEFT 4 DEAD 2 AUTOEXEC.CFG //
-¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
 
-__________
+// LEFT 4 DEAD 2 AUTOEXEC.CFG //
+
+
 // Materials
-¯¯¯¯¯¯¯¯¯¯
+
+
 mat_monitorgamma_tv_enabled "1"       // default 0; increases brightness dramatically
 mat_hdr_enabled "0"                    
 mat_fastnobump "1" 
@@ -15,9 +15,11 @@ cam_ideallag 0
 cl_playerspraydisable 0
 voice_enable 1
 cl_observercrosshair 0
-_______
+
+
 //BINDS
-¯¯¯¯¯¯¯	
+
+
 bind "q" "lastinv"
 bind "v" "slot5;cl_viewmodelfovsurvivor 55"
 bind 0 "say !ready;cl_viewmodelfovsurvivor 55"
@@ -29,17 +31,20 @@ bind 5 "say !health"
 bind l "say !bonesaw 478;say !bonesaw 493"
 bind leftarrow +left
 bind rightarrow +right
-____________________
+
+
 // START UP SETTINGS
-¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+
+
 con_enable "1"							
 spec_allowroaming "1"																	
 cl_showhelp "0"											
 cl_forcepreload "1"          								
 
-___________________________________________
+
 // RATE SETTINGS & NET USAGE GRAPH SETTINGS
-¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+
+
 mat_grain_scale_override "0"					// FILM GRAIN AMOUNT
 mat_monitorgamma "1.6"						// MONITOR GAMMA MAX BRIGHTNESS
 mat_bloom_scalefactor_scalar "0"				// BLOOM SCALE FACTOR	
@@ -72,9 +77,11 @@ net_graphmsecs 0
 net_graphshowinterp 0
 net_graphshowlatency 0
 net_graphsolid 0
-_____________________________
+
+
 // MOUSE & CROSSHAIR SETTINGS
-¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+
+
 sensitivity "2.5"							// MOUSE SENSITIVITY				(Default 3)
 m_rawinput "1"							// USE RAW INPUT FOR MOUSE INPUT		(Default 0)
 m_mousespeed "0"						// USE WINDOWS MOUSE ACCELERATION		(Default 1)
@@ -94,9 +101,11 @@ r_eyeshift_y "0"
 r_eyeshift_x "0"
 r_PhysPropStaticLighting "0"
 cl_ragdoll_limit "0"
-______________________
+
+
 // GLOW COLOR SETTINGS
-¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+
+
 cl_glow_ghost_infected_r "1.00"					// COLOR OF INFECTED GHOST 			WHITE
 cl_glow_ghost_infected_g "1.00"					// Only Survivor View
 cl_glow_ghost_infected_b "1.00"					// -
@@ -137,7 +146,9 @@ cl_glow_thirdstrike_item_r "1.00"				// COLOR OF ITEMS WHILE BLACK & WHITE 		ORA
 cl_glow_thirdstrike_item_g "0.25"				// Only Survivor View
 cl_glow_thirdstrike_item_b "0.00"				// -
 
+
 //FPS CVARS
+
 
 mat_queue_priority "2"; //# (Def.1) TO USE IF YOU GOT LAGS/ LOW FPS
 cl_detail_max_sway "0"; //# (Def.5) Amplitude of the detail prop sway
